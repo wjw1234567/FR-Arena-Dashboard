@@ -24,6 +24,9 @@ class dws_visitation_daily:
 
         delete_sql = f"alter table  {self.target_table} delete where  date_casino=%(date)s"
 
+
+
+
         source_sql = f"""
 
 
