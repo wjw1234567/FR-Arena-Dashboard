@@ -1,0 +1,2368 @@
+2025-12-01 15:36:42 [INFO] 2025-09-21 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:36:44 [INFO] 已写入 97649 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:36:44 [INFO] 2025-09-22 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:36:46 [INFO] 已写入 93200 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:36:46 [INFO] 2025-09-23 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:36:47 [INFO] 已写入 97683 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:36:48 [INFO] 2025-09-24 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:36:49 [INFO] 已写入 93849 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:36:49 [INFO] 2025-09-25 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:36:51 [INFO] 已写入 75677 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:36:51 [INFO] 2025-09-26 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:49:52 [INFO] 2025-08-01 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:49:52 [INFO] 已写入 49026 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:49:52 [INFO] 2025-08-02 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:49:53 [INFO] 已写入 48629 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:49:53 [INFO] 2025-08-03 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:49:54 [INFO] 已写入 48459 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:49:54 [INFO] 2025-08-04 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:49:55 [INFO] 已写入 48030 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:49:55 [INFO] 2025-08-05 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:49:57 [INFO] 已写入 48709 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:49:57 [INFO] 2025-08-06 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:49:59 [INFO] 已写入 48396 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:49:59 [INFO] 2025-08-07 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:01 [INFO] 已写入 48405 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:01 [INFO] 2025-08-08 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:03 [INFO] 已写入 49090 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:03 [INFO] 2025-08-09 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:05 [INFO] 已写入 48511 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:05 [INFO] 2025-08-10 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:07 [INFO] 已写入 48891 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:07 [INFO] 2025-08-11 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:09 [INFO] 已写入 48119 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:09 [INFO] 2025-08-12 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:11 [INFO] 已写入 49362 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:11 [INFO] 2025-08-13 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:13 [INFO] 已写入 48106 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:13 [INFO] 2025-08-14 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:15 [INFO] 已写入 48255 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:15 [INFO] 2025-08-15 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:17 [INFO] 已写入 48447 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:17 [INFO] 2025-08-16 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:19 [INFO] 已写入 48510 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:19 [INFO] 2025-08-17 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:21 [INFO] 已写入 48215 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:21 [INFO] 2025-08-18 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:23 [INFO] 已写入 48336 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:23 [INFO] 2025-08-19 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:25 [INFO] 已写入 48691 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:25 [INFO] 2025-08-20 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:27 [INFO] 已写入 48220 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:27 [INFO] 2025-08-21 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:29 [INFO] 已写入 48480 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:29 [INFO] 2025-08-22 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:31 [INFO] 已写入 49011 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:31 [INFO] 2025-08-23 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:33 [INFO] 已写入 48955 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:33 [INFO] 2025-08-24 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:35 [INFO] 已写入 48491 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:35 [INFO] 2025-08-25 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:37 [INFO] 已写入 48588 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:37 [INFO] 2025-08-26 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:39 [INFO] 已写入 48255 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:39 [INFO] 2025-08-27 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:41 [INFO] 已写入 48629 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:41 [INFO] 2025-08-28 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:43 [INFO] 已写入 48901 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:43 [INFO] 2025-08-29 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:45 [INFO] 已写入 48378 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:45 [INFO] 2025-08-30 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:47 [INFO] 已写入 48291 行到 dws_visitor_path_track_heatmap
+2025-12-01 15:50:47 [INFO] 2025-08-31 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-01 15:50:48 [INFO] 已写入 36688 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:02 [INFO] 2025-08-01 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:03 [INFO] 已写入 48814 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:03 [INFO] 2025-08-02 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:04 [INFO] 已写入 48730 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:04 [INFO] 2025-08-03 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:05 [INFO] 已写入 48309 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:05 [INFO] 2025-08-04 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:06 [INFO] 已写入 48652 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:06 [INFO] 2025-08-05 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:07 [INFO] 已写入 48719 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:07 [INFO] 2025-08-06 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:08 [INFO] 已写入 48656 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:08 [INFO] 2025-08-07 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:09 [INFO] 已写入 48689 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:09 [INFO] 2025-08-08 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:10 [INFO] 已写入 48932 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:10 [INFO] 2025-08-09 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:10 [INFO] 已写入 48340 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:10 [INFO] 2025-08-10 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:11 [INFO] 已写入 48508 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:11 [INFO] 2025-08-11 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:12 [INFO] 已写入 48162 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:12 [INFO] 2025-08-12 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:13 [INFO] 已写入 48445 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:13 [INFO] 2025-08-13 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:14 [INFO] 已写入 48310 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:14 [INFO] 2025-08-14 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:15 [INFO] 已写入 48413 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:15 [INFO] 2025-08-15 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:16 [INFO] 已写入 48410 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:16 [INFO] 2025-08-16 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:17 [INFO] 已写入 48591 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:17 [INFO] 2025-08-17 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:18 [INFO] 已写入 48423 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:18 [INFO] 2025-08-18 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:19 [INFO] 已写入 48080 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:19 [INFO] 2025-08-19 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:20 [INFO] 已写入 48654 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:20 [INFO] 2025-08-20 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:21 [INFO] 已写入 47755 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:21 [INFO] 2025-08-21 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:22 [INFO] 已写入 49066 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:22 [INFO] 2025-08-22 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:23 [INFO] 已写入 48874 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:23 [INFO] 2025-08-23 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:24 [INFO] 已写入 48635 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:24 [INFO] 2025-08-24 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:24 [INFO] 已写入 48675 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:25 [INFO] 2025-08-25 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:25 [INFO] 已写入 48727 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:25 [INFO] 2025-08-26 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:26 [INFO] 已写入 47795 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:27 [INFO] 2025-08-27 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:27 [INFO] 已写入 48507 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:28 [INFO] 2025-08-28 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:28 [INFO] 已写入 48749 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:28 [INFO] 2025-08-29 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:29 [INFO] 已写入 48542 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:29 [INFO] 2025-08-30 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:30 [INFO] 已写入 48810 行到 dws_visitor_path_track_heatmap
+2025-12-05 17:59:30 [INFO] 2025-08-31 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-05 17:59:31 [INFO] 已写入 36242 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:33 [INFO] 2025-08-01 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:33 [INFO] 已写入 25975 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:33 [INFO] 2025-08-02 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:34 [INFO] 已写入 26012 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:34 [INFO] 2025-08-03 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:35 [INFO] 已写入 25986 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:35 [INFO] 2025-08-04 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:35 [INFO] 已写入 25832 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:35 [INFO] 2025-08-05 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:36 [INFO] 已写入 26013 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:36 [INFO] 2025-08-06 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:37 [INFO] 已写入 25720 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:37 [INFO] 2025-08-07 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:37 [INFO] 已写入 26124 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:37 [INFO] 2025-08-08 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:38 [INFO] 已写入 25748 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:38 [INFO] 2025-08-09 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:38 [INFO] 已写入 25944 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:39 [INFO] 2025-08-10 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:39 [INFO] 已写入 26075 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:39 [INFO] 2025-08-11 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:40 [INFO] 已写入 25818 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:40 [INFO] 2025-08-12 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:40 [INFO] 已写入 26083 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:40 [INFO] 2025-08-13 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:41 [INFO] 已写入 26033 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:41 [INFO] 2025-08-14 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:41 [INFO] 已写入 25879 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:41 [INFO] 2025-08-15 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:42 [INFO] 已写入 26092 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:42 [INFO] 2025-08-16 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:43 [INFO] 已写入 25840 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:43 [INFO] 2025-08-17 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:43 [INFO] 已写入 25732 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:43 [INFO] 2025-08-18 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:44 [INFO] 已写入 26063 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:44 [INFO] 2025-08-19 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:44 [INFO] 已写入 25815 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:45 [INFO] 2025-08-20 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:45 [INFO] 已写入 25982 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:45 [INFO] 2025-08-21 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:46 [INFO] 已写入 25911 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:46 [INFO] 2025-08-22 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:46 [INFO] 已写入 26167 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:46 [INFO] 2025-08-23 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:47 [INFO] 已写入 25796 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:47 [INFO] 2025-08-24 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:47 [INFO] 已写入 25915 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:48 [INFO] 2025-08-25 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:48 [INFO] 已写入 26077 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:48 [INFO] 2025-08-26 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:49 [INFO] 已写入 26014 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:49 [INFO] 2025-08-27 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:49 [INFO] 已写入 25749 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:49 [INFO] 2025-08-28 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:50 [INFO] 已写入 25931 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:50 [INFO] 2025-08-29 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:50 [INFO] 已写入 25788 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:51 [INFO] 2025-08-30 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:51 [INFO] 已写入 25879 行到 dws_visitor_path_track_heatmap
+2025-12-11 15:02:51 [INFO] 2025-08-31 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-11 15:02:52 [INFO] 已写入 19310 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:16 [INFO] 2025-08-01 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:17 [INFO] 已写入 25975 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:17 [INFO] 2025-08-02 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:17 [INFO] 已写入 26012 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:17 [INFO] 2025-08-03 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:18 [INFO] 已写入 25986 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:18 [INFO] 2025-08-04 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:18 [INFO] 已写入 25832 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:18 [INFO] 2025-08-05 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:19 [INFO] 已写入 26013 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:19 [INFO] 2025-08-06 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:20 [INFO] 已写入 25720 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:20 [INFO] 2025-08-07 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:20 [INFO] 已写入 26124 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:20 [INFO] 2025-08-08 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:21 [INFO] 已写入 25748 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:21 [INFO] 2025-08-09 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:22 [INFO] 已写入 25944 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:22 [INFO] 2025-08-10 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:22 [INFO] 已写入 26075 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:22 [INFO] 2025-08-11 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:23 [INFO] 已写入 25818 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:23 [INFO] 2025-08-12 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:23 [INFO] 已写入 26083 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:23 [INFO] 2025-08-13 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:24 [INFO] 已写入 26033 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:24 [INFO] 2025-08-14 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:25 [INFO] 已写入 25879 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:25 [INFO] 2025-08-15 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:25 [INFO] 已写入 26092 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:25 [INFO] 2025-08-16 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:26 [INFO] 已写入 25840 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:26 [INFO] 2025-08-17 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:26 [INFO] 已写入 25732 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:26 [INFO] 2025-08-18 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:27 [INFO] 已写入 26063 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:27 [INFO] 2025-08-19 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:28 [INFO] 已写入 25815 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:28 [INFO] 2025-08-20 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:28 [INFO] 已写入 25982 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:28 [INFO] 2025-08-21 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:29 [INFO] 已写入 25911 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:29 [INFO] 2025-08-22 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:29 [INFO] 已写入 26167 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:29 [INFO] 2025-08-23 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:30 [INFO] 已写入 25796 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:30 [INFO] 2025-08-24 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:30 [INFO] 已写入 25915 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:31 [INFO] 2025-08-25 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:31 [INFO] 已写入 26077 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:31 [INFO] 2025-08-26 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:32 [INFO] 已写入 26014 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:32 [INFO] 2025-08-27 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:32 [INFO] 已写入 25749 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:32 [INFO] 2025-08-28 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:33 [INFO] 已写入 25931 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:33 [INFO] 2025-08-29 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:33 [INFO] 已写入 25788 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:34 [INFO] 2025-08-30 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:34 [INFO] 已写入 25879 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:34 [INFO] 2025-08-31 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:35 [INFO] 已写入 19310 行到 dws_visitor_path_track_heatmap
+2025-12-17 12:15:35 [INFO] 2025-08-01 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:35 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:35 [INFO] 2025-08-02 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:35 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:35 [INFO] 2025-08-03 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:35 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:35 [INFO] 2025-08-04 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:36 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:36 [INFO] 2025-08-05 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:36 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:36 [INFO] 2025-08-06 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:36 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:36 [INFO] 2025-08-07 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:36 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:36 [INFO] 2025-08-08 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:36 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:36 [INFO] 2025-08-09 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:36 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:36 [INFO] 2025-08-10 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:36 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:37 [INFO] 2025-08-11 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:37 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:37 [INFO] 2025-08-12 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:37 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:37 [INFO] 2025-08-13 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:37 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:37 [INFO] 2025-08-14 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:37 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:37 [INFO] 2025-08-15 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:37 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:37 [INFO] 2025-08-16 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:38 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:38 [INFO] 2025-08-17 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:38 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:38 [INFO] 2025-08-18 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:38 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:38 [INFO] 2025-08-19 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:38 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:38 [INFO] 2025-08-20 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:38 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:38 [INFO] 2025-08-21 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:38 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:38 [INFO] 2025-08-22 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:39 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:39 [INFO] 2025-08-23 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:39 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:39 [INFO] 2025-08-24 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:39 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:39 [INFO] 2025-08-25 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:39 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:39 [INFO] 2025-08-26 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:39 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:39 [INFO] 2025-08-27 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:39 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:39 [INFO] 2025-08-28 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:40 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:40 [INFO] 2025-08-29 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:40 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:40 [INFO] 2025-08-30 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:40 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-17 12:15:40 [INFO] 2025-08-31 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-17 12:15:40 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column region_type in table Facial.dws_visitor_path_track_heatmap (b739bfbd-8ff3-43be-9cee-194d24e7b240). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitor_path_track_heatmap (date_casino, region_type, region_name, gender, Age_range, profile_type, member_tier, sector, visitor_num, batch_time) 
+
+
+               with tab_profile as (
+                   select toDate(date_hour) date
+                   ,toDate(date_casino_hour) date_casino
+             , profile_id
+             , region_type
+             , region_id
+             , region_name
+             , gender
+             , Age_range
+             , profile_type
+             , member_tier
+             , sector
+             , max(stay_time) stay_time_p
+             , case when region_type='3'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_region
+             , case when region_type='4'and max(stay_time) < 15*60 then 1 else 0 end is_less_15min_casino
+             , is_return_zone
+             , is_return_casino
+       from  dws_profileid_all_index
+       where toDate(date_casino_hour)=%(date)s
+       group by date,date_casino,profile_id, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, is_return_zone, is_return_casino,sector
+
+            )
+
+
+               select
+                  date_casino
+               , region_type
+               , case when region_type='4' then 'CASINO'
+                      when region_name like 'BW%%' then 'BW'
+                      else region_name end `region_name`
+               , gender
+               , Age_range
+               , profile_type
+               , member_tier
+               , case when  region_type = '4' then 'Gaming'  else sector end  sector
+               , count(distinct profile_id) visitor_num
+            
+               , now() batch_time
+
+       from  tab_profile t1
+       group by date_casino, region_type, `region_name`, gender, Age_range, profile_type, member_tier,sector
+
+
+           
+2025-12-29 14:26:36 [INFO] 2025-08-01 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:26 [INFO] 2025-08-01 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:26 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:26 [INFO] 2025-08-02 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:26 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:26 [INFO] 2025-08-03 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:27 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:27 [INFO] 2025-08-04 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:27 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:27 [INFO] 2025-08-05 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:27 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:27 [INFO] 2025-08-06 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:28 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:28 [INFO] 2025-08-07 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:28 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:28 [INFO] 2025-08-08 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:28 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:28 [INFO] 2025-08-09 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:28 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:28 [INFO] 2025-08-10 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:29 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:29 [INFO] 2025-08-11 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:29 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:29 [INFO] 2025-08-12 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:29 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:29 [INFO] 2025-08-13 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:29 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:30 [INFO] 2025-08-14 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:30 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:30 [INFO] 2025-08-15 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:30 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:30 [INFO] 2025-08-16 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:30 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:30 [INFO] 2025-08-17 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:31 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:31 [INFO] 2025-08-18 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:31 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:31 [INFO] 2025-08-19 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:31 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:31 [INFO] 2025-08-20 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:31 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:31 [INFO] 2025-08-21 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:32 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:32 [INFO] 2025-08-22 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:32 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:32 [INFO] 2025-08-23 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:32 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:32 [INFO] 2025-08-24 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:33 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:33 [INFO] 2025-08-25 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:33 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:33 [INFO] 2025-08-26 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:33 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:33 [INFO] 2025-08-27 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:33 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:33 [INFO] 2025-08-28 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:34 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:34 [INFO] 2025-08-29 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:34 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:34 [INFO] 2025-08-30 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:34 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap
+2025-12-29 14:29:34 [INFO] 2025-08-31 已执行完成删除 dws_visitor_path_track_heatmap  的数据
+2025-12-29 14:29:34 [INFO]  执行成功 ，已经写入  dws_visitor_path_track_heatmap

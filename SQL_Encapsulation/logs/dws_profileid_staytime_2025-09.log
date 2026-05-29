@@ -1,0 +1,106 @@
+2025-09-11 18:05:25 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-11 18:05:25 [INFO] 2025-08-25已写入 到  dws_profileid_staytime
+2025-09-11 18:05:25 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-11 18:05:25 [INFO] 2025-08-26已写入 到  dws_profileid_staytime
+2025-09-11 18:05:26 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-11 18:05:26 [INFO] 2025-08-27已写入 到  dws_profileid_staytime
+2025-09-12 16:27:10 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-12 16:27:10 [INFO] 2025-08-25已写入 到  dws_profileid_staytime
+2025-09-12 16:27:10 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-12 16:27:11 [INFO] 2025-08-26已写入 到  dws_profileid_staytime
+2025-09-12 16:27:11 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-12 16:27:11 [INFO] 2025-08-27已写入 到  dws_profileid_staytime
+2025-09-12 18:12:40 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-12 18:12:40 [INFO] 2025-08-25已写入 到  dws_profileid_staytime
+2025-09-12 18:12:40 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-12 18:12:40 [INFO] 2025-08-26已写入 到  dws_profileid_staytime
+2025-09-12 18:12:40 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-12 18:12:40 [INFO] 2025-08-27已写入 到  dws_profileid_staytime
+2025-09-17 09:44:53 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-17 09:44:53 [INFO] 2025-08-25已写入 到  dws_profileid_staytime
+2025-09-17 09:44:53 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-17 09:44:54 [INFO] 2025-08-26已写入 到  dws_profileid_staytime
+2025-09-17 09:44:54 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-17 09:44:54 [INFO] 2025-08-27已写入 到  dws_profileid_staytime
+2025-09-18 17:21:23 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-18 17:21:31 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-18 17:21:32 [INFO] 已写入 4949 行到 dws_profileid_staytime
+2025-09-18 17:21:32 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-18 17:21:32 [INFO] 已写入 4783 行到 dws_profileid_staytime
+2025-09-18 17:21:32 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-18 17:21:33 [INFO] 已写入 4764 行到 dws_profileid_staytime
+2025-09-18 17:34:01 [INFO] Inserted batch 1, size=4952
+2025-09-18 17:34:02 [INFO] Inserted batch 1, size=4784
+2025-09-18 17:34:02 [INFO] Inserted batch 1, size=4767
+2025-09-22 14:57:42 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-22 14:57:43 [INFO] 已写入 4025 行到 dws_profileid_staytime
+2025-09-22 14:57:43 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-22 14:57:43 [INFO] 已写入 4114 行到 dws_profileid_staytime
+2025-09-22 14:57:43 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-22 14:57:43 [INFO] 已写入 4191 行到 dws_profileid_staytime
+2025-09-26 15:51:38 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 15:51:38 [INFO] 已写入 4025 行到 dws_profileid_staytime
+2025-09-26 15:51:38 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 15:51:38 [INFO] 已写入 4114 行到 dws_profileid_staytime
+2025-09-26 15:51:39 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 15:51:39 [INFO] 已写入 4191 行到 dws_profileid_staytime
+2025-09-26 16:43:16 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 16:43:16 [INFO] 已写入 4025 行到 dws_profileid_staytime
+2025-09-26 16:43:16 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 16:43:16 [INFO] 已写入 4114 行到 dws_profileid_staytime
+2025-09-26 16:43:16 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 16:43:17 [INFO] 已写入 4191 行到 dws_profileid_staytime
+2025-09-26 17:44:59 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 17:45:00 [INFO] 已写入 4025 行到 dws_profileid_staytime
+2025-09-26 17:45:00 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 17:45:00 [INFO] 已写入 4114 行到 dws_profileid_staytime
+2025-09-26 17:45:00 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 17:45:00 [INFO] 已写入 4191 行到 dws_profileid_staytime
+2025-09-26 17:45:33 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 17:45:34 [INFO] 已写入 4025 行到 dws_profileid_staytime
+2025-09-26 17:45:34 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 17:45:34 [INFO] 已写入 4114 行到 dws_profileid_staytime
+2025-09-26 17:45:34 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 17:45:34 [INFO] 已写入 4191 行到 dws_profileid_staytime
+2025-09-26 17:46:51 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 17:46:51 [INFO] 已写入 4025 行到 dws_profileid_staytime
+2025-09-26 17:46:51 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 17:46:51 [INFO] 已写入 4114 行到 dws_profileid_staytime
+2025-09-26 17:46:51 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-26 17:46:52 [INFO] 已写入 4191 行到 dws_profileid_staytime
+2025-09-28 10:29:07 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 10:29:08 [INFO] 已写入 4291 行到 dws_profileid_staytime
+2025-09-28 10:29:08 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 10:29:08 [INFO] 已写入 4111 行到 dws_profileid_staytime
+2025-09-28 10:29:08 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 10:29:08 [INFO] 已写入 4125 行到 dws_profileid_staytime
+2025-09-28 11:11:35 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 11:11:36 [INFO] 已写入 4344 行到 dws_profileid_staytime
+2025-09-28 11:11:36 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 11:11:36 [INFO] 已写入 4399 行到 dws_profileid_staytime
+2025-09-28 11:11:36 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 11:11:36 [INFO] 已写入 4414 行到 dws_profileid_staytime
+2025-09-28 14:40:15 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 14:40:15 [INFO] 已写入 4787 行到 dws_profileid_staytime
+2025-09-28 14:40:15 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 14:40:15 [INFO] 已写入 4721 行到 dws_profileid_staytime
+2025-09-28 14:40:15 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 14:40:16 [INFO] 已写入 4523 行到 dws_profileid_staytime
+2025-09-28 14:52:19 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 14:52:19 [INFO] 已写入 9253 行到 dws_profileid_staytime
+2025-09-28 14:52:20 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 14:52:20 [INFO] 已写入 9237 行到 dws_profileid_staytime
+2025-09-28 14:52:20 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 14:52:20 [INFO] 已写入 9177 行到 dws_profileid_staytime
+2025-09-28 15:19:44 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 15:19:44 [INFO] 已写入 4609 行到 dws_profileid_staytime
+2025-09-28 15:19:45 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 15:19:45 [INFO] 已写入 4652 行到 dws_profileid_staytime
+2025-09-28 15:19:45 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 15:19:45 [INFO] 已写入 4749 行到 dws_profileid_staytime
+2025-09-28 18:13:37 [INFO] 2025-08-25 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 18:13:38 [INFO] 已写入 4609 行到 dws_profileid_staytime
+2025-09-28 18:13:38 [INFO] 2025-08-26 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 18:13:38 [INFO] 已写入 4652 行到 dws_profileid_staytime
+2025-09-28 18:13:38 [INFO] 2025-08-27 已执行完成删除 dws_profileid_staytime  的数据
+2025-09-28 18:13:39 [INFO] 已写入 4749 行到 dws_profileid_staytime

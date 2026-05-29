@@ -1,0 +1,111 @@
+2025-10-22 15:11:21 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 15:11:21 [INFO] 已写入 994 行到 dws_visitation_daily
+2025-10-22 15:11:21 [INFO] 2025-08-26 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 15:11:21 [INFO] 已写入 1036 行到 dws_visitation_daily
+2025-10-22 15:11:21 [INFO] 2025-08-27 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 15:11:22 [INFO] 已写入 1078 行到 dws_visitation_daily
+2025-10-22 15:12:07 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 15:12:07 [INFO] 已写入 994 行到 dws_visitation_daily
+2025-10-22 15:12:07 [INFO] 2025-08-26 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 15:12:07 [INFO] 已写入 1036 行到 dws_visitation_daily
+2025-10-22 15:12:08 [INFO] 2025-08-27 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 15:12:08 [INFO] 已写入 1078 行到 dws_visitation_daily
+2025-10-22 18:06:42 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:07:41 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:08:43 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:08:43 [INFO] 已写入 615 行到 dws_visitation_daily
+2025-10-22 18:08:43 [INFO] 2025-08-26 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:08:43 [INFO] 已写入 616 行到 dws_visitation_daily
+2025-10-22 18:08:43 [INFO] 2025-08-27 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:08:44 [INFO] 已写入 616 行到 dws_visitation_daily
+2025-10-22 18:21:47 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:21:47 [INFO] 已写入 615 行到 dws_visitation_daily
+2025-10-22 18:21:47 [INFO] 2025-08-26 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:21:47 [INFO] 已写入 616 行到 dws_visitation_daily
+2025-10-22 18:21:47 [INFO] 2025-08-27 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:21:47 [INFO] 已写入 616 行到 dws_visitation_daily
+2025-10-22 18:22:39 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:22:39 [INFO] 已写入 615 行到 dws_visitation_daily
+2025-10-22 18:22:39 [INFO] 2025-08-26 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:22:40 [INFO] 已写入 616 行到 dws_visitation_daily
+2025-10-22 18:22:40 [INFO] 2025-08-27 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:22:40 [INFO] 已写入 616 行到 dws_visitation_daily
+2025-10-22 18:24:37 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:25:19 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:25:20 [ERROR] 执行_insert_batch出错: ServerException: Code: 16.
+DB::Exception: No such column date_casino in table Facial.dws_visitation_daily (cccd2938-b409-40df-989b-e09bdd6a9f65). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+
+2025-10-22 18:25:20 [INFO] 2025-08-26 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:25:20 [ERROR] 执行_insert_batch出错: ServerException: Code: 16.
+DB::Exception: No such column date_casino in table Facial.dws_visitation_daily (cccd2938-b409-40df-989b-e09bdd6a9f65). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+
+2025-10-22 18:25:20 [INFO] 2025-08-27 已执行完成删除 dws_visitation_daily  的数据
+2025-10-22 18:25:20 [ERROR] 执行_insert_batch出错: ServerException: Code: 16.
+DB::Exception: No such column date_casino in table Facial.dws_visitation_daily (cccd2938-b409-40df-989b-e09bdd6a9f65). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+
+2025-10-23 10:37:05 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily  的数据
+2025-10-23 10:37:06 [INFO] 已写入 615 行到 dws_visitation_daily
+2025-10-23 10:37:06 [INFO] 2025-08-26 已执行完成删除 dws_visitation_daily  的数据
+2025-10-23 10:37:06 [INFO] 已写入 616 行到 dws_visitation_daily
+2025-10-23 10:37:06 [INFO] 2025-08-27 已执行完成删除 dws_visitation_daily  的数据
+2025-10-23 10:37:06 [INFO] 已写入 616 行到 dws_visitation_daily
+2025-10-23 11:24:41 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily  的数据
+2025-10-23 11:24:41 [INFO] 已写入 615 行到 dws_visitation_daily
+2025-10-23 11:24:41 [INFO] 2025-08-26 已执行完成删除 dws_visitation_daily  的数据
+2025-10-23 11:24:42 [INFO] 已写入 616 行到 dws_visitation_daily
+2025-10-23 11:24:42 [INFO] 2025-08-27 已执行完成删除 dws_visitation_daily  的数据
+2025-10-23 11:24:42 [INFO] 已写入 616 行到 dws_visitation_daily
+2025-10-30 16:07:41 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily  的数据
+2025-10-30 16:07:41 [INFO] 已写入 615 行到 dws_visitation_daily
+2025-10-30 16:07:42 [INFO] 2025-08-26 已执行完成删除 dws_visitation_daily  的数据
+2025-10-30 16:07:42 [INFO] 已写入 616 行到 dws_visitation_daily
+2025-10-30 16:07:42 [INFO] 2025-08-27 已执行完成删除 dws_visitation_daily  的数据
+2025-10-30 16:07:42 [INFO] 已写入 616 行到 dws_visitation_daily

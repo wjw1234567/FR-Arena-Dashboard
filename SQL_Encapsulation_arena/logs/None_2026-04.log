@@ -1,0 +1,53 @@
+2026-04-28 14:23:57 [ERROR] 执行执行获取date_list语句出错: ServerException: Code: 81.
+DB::Exception: Database Team_EIM does not exist. Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String>(int, FormatStringHelperImpl<std::type_identity<String>::type>, String&&) @ 0x000000000bfd5feb
+3. DB::DatabaseCatalog::assertDatabaseExists(String const&) const @ 0x0000000016b83c29
+4. DB::TCPHandler::runImpl() @ 0x000000001851c637
+5. DB::TCPHandler::run() @ 0x000000001853eab8
+6. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+7. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+8. Poco::PooledThread::run() @ 0x000000001d868207
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+10. ? @ 0x0000000000094ac3
+11. ? @ 0x0000000000125a04
+
+2026-04-28 14:23:58 [ERROR] 执行执行获取date_list语句出错: ServerException: Code: 81.
+DB::Exception: Database Team_EIM does not exist. Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String>(int, FormatStringHelperImpl<std::type_identity<String>::type>, String&&) @ 0x000000000bfd5feb
+3. DB::DatabaseCatalog::assertDatabaseExists(String const&) const @ 0x0000000016b83c29
+4. DB::TCPHandler::runImpl() @ 0x000000001851c637
+5. DB::TCPHandler::run() @ 0x000000001853eab8
+6. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+7. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+8. Poco::PooledThread::run() @ 0x000000001d868207
+9. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+10. ? @ 0x0000000000094ac3
+11. ? @ 0x0000000000125a04
+
+2026-04-28 14:24:29 [ERROR] 执行执行获取date_list语句出错: ServerException: Code: 62.
+DB::Exception: Syntax error: failed at position 366 (%) (line 9, col 26): %s
+            order by  CDate desc limit 7
+
+    . Expected one of: CAST operator, NOT, INTERVAL, CASE, DATE, TIMESTAMP, tuple, collection of literals, array, number, literal, NULL, NULL, Bool, TRUE, FALSE, string literal, asterisk, qualified asterisk, compound identifier, identifier, COLUMNS matcher, COLUMNS, qualified COLUMNS matcher, function name, substitution, MySQL-style global variable. Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::createDeprecated(String const&, int, bool) @ 0x0000000012a2f6ad
+2. DB::parseQueryAndMovePosition(DB::IParser&, char const*&, char const*, String const&, bool, unsigned long, unsigned long, unsigned long) @ 0x0000000019087672
+3. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x000000001708f2e0
+4. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+5. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+6. DB::TCPHandler::run() @ 0x000000001853eab8
+7. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+8. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+9. Poco::PooledThread::run() @ 0x000000001d868207
+10. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+11. ? @ 0x0000000000094ac3
+12. ? @ 0x0000000000125a04
+
+2026-04-28 14:54:08 [ERROR] 执行执行获取date_list语句出错: AttributeError: 'Logger' object has no attribute 'warning'

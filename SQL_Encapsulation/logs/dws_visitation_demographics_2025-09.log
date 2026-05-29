@@ -1,0 +1,126 @@
+2025-09-11 18:20:26 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-11 18:20:27 [INFO] 2025-08-25已写入 到  dws_visitation_demographics
+2025-09-11 18:20:27 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-11 18:20:27 [INFO] 2025-08-26已写入 到  dws_visitation_demographics
+2025-09-11 18:20:27 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-11 18:20:27 [INFO] 2025-08-27已写入 到  dws_visitation_demographics
+2025-09-16 15:36:57 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-16 15:36:57 [INFO] 2025-08-25已写入 到  dws_visitation_demographics
+2025-09-16 15:36:57 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-16 15:36:57 [INFO] 2025-08-26已写入 到  dws_visitation_demographics
+2025-09-16 15:36:57 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-16 15:36:58 [INFO] 2025-08-27已写入 到  dws_visitation_demographics
+2025-09-16 18:35:34 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-16 18:35:35 [INFO] 2025-08-25已写入 到  dws_visitation_demographics
+2025-09-16 18:35:35 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-16 18:35:35 [INFO] 2025-08-26已写入 到  dws_visitation_demographics
+2025-09-16 18:35:35 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-16 18:35:35 [INFO] 2025-08-27已写入 到  dws_visitation_demographics
+2025-09-17 09:43:32 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-17 09:43:32 [INFO] 2025-08-25已写入 到  dws_visitation_demographics
+2025-09-17 09:43:32 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-17 09:43:33 [INFO] 2025-08-26已写入 到  dws_visitation_demographics
+2025-09-17 09:43:33 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-17 09:43:33 [INFO] 2025-08-27已写入 到  dws_visitation_demographics
+2025-09-18 17:44:02 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:44:03 [ERROR] 执行_insert_batch出错: TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column stay_time: required argument is not an integer
+2025-09-18 17:44:03 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:44:03 [ERROR] 执行_insert_batch出错: TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column stay_time: required argument is not an integer
+2025-09-18 17:44:03 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:44:03 [ERROR] 执行_insert_batch出错: TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column stay_time: required argument is not an integer
+2025-09-18 17:44:14 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:44:14 [ERROR] 执行_insert_batch出错: TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column stay_time: required argument is not an integer
+2025-09-18 17:44:14 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:44:14 [ERROR] 执行_insert_batch出错: TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column stay_time: required argument is not an integer
+2025-09-18 17:44:14 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:44:15 [ERROR] 执行_insert_batch出错: TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column stay_time: required argument is not an integer
+2025-09-18 17:48:40 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:48:40 [ERROR] 执行_insert_batch出错: TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column stay_time: required argument is not an integer
+2025-09-18 17:48:40 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:48:41 [ERROR] 执行_insert_batch出错: TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column stay_time: required argument is not an integer
+2025-09-18 17:48:41 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:48:41 [ERROR] 执行_insert_batch出错: TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column stay_time: required argument is not an integer
+2025-09-18 17:52:03 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:52:03 [ERROR] 执行_insert_batch出错: TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column stay_time: required argument is not an integer
+2025-09-18 17:52:03 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:52:04 [ERROR] 执行_insert_batch出错: TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column stay_time: required argument is not an integer
+2025-09-18 17:52:04 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:52:04 [ERROR] 执行_insert_batch出错: TypeMismatchError: Code: 53. Type mismatch in VALUES section. Repeat query with types_check=True for detailed info. Column stay_time: required argument is not an integer
+2025-09-18 17:54:35 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:54:36 [INFO] 已写入 1154 行到 dws_visitation_demographics
+2025-09-18 17:54:36 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:54:36 [INFO] 已写入 1132 行到 dws_visitation_demographics
+2025-09-18 17:54:36 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-18 17:54:36 [INFO] 已写入 1090 行到 dws_visitation_demographics
+2025-09-22 14:57:59 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-22 14:57:59 [INFO] 已写入 904 行到 dws_visitation_demographics
+2025-09-22 14:57:59 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-22 14:58:00 [INFO] 已写入 883 行到 dws_visitation_demographics
+2025-09-22 14:58:00 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-22 14:58:00 [INFO] 已写入 956 行到 dws_visitation_demographics
+2025-09-26 16:41:56 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 16:41:56 [INFO] 已写入 904 行到 dws_visitation_demographics
+2025-09-26 16:41:56 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 16:41:57 [INFO] 已写入 883 行到 dws_visitation_demographics
+2025-09-26 16:41:57 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 16:41:57 [INFO] 已写入 956 行到 dws_visitation_demographics
+2025-09-26 16:43:21 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 16:43:21 [INFO] 已写入 904 行到 dws_visitation_demographics
+2025-09-26 16:43:21 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 16:43:21 [INFO] 已写入 883 行到 dws_visitation_demographics
+2025-09-26 16:43:21 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 16:43:21 [INFO] 已写入 956 行到 dws_visitation_demographics
+2025-09-26 17:45:04 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 17:45:05 [INFO] 已写入 904 行到 dws_visitation_demographics
+2025-09-26 17:45:05 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 17:45:05 [INFO] 已写入 883 行到 dws_visitation_demographics
+2025-09-26 17:45:05 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 17:45:05 [INFO] 已写入 956 行到 dws_visitation_demographics
+2025-09-26 17:45:38 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 17:45:39 [INFO] 已写入 904 行到 dws_visitation_demographics
+2025-09-26 17:45:39 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 17:45:39 [INFO] 已写入 883 行到 dws_visitation_demographics
+2025-09-26 17:45:39 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 17:45:39 [INFO] 已写入 956 行到 dws_visitation_demographics
+2025-09-26 17:46:55 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 17:46:56 [INFO] 已写入 904 行到 dws_visitation_demographics
+2025-09-26 17:46:56 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 17:46:56 [INFO] 已写入 883 行到 dws_visitation_demographics
+2025-09-26 17:46:56 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-26 17:46:56 [INFO] 已写入 956 行到 dws_visitation_demographics
+2025-09-28 10:29:13 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 10:29:13 [INFO] 已写入 954 行到 dws_visitation_demographics
+2025-09-28 10:29:13 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 10:29:14 [INFO] 已写入 867 行到 dws_visitation_demographics
+2025-09-28 10:29:14 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 10:29:14 [INFO] 已写入 908 行到 dws_visitation_demographics
+2025-09-28 11:12:01 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 11:12:01 [INFO] 已写入 972 行到 dws_visitation_demographics
+2025-09-28 11:12:01 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 11:12:01 [INFO] 已写入 1000 行到 dws_visitation_demographics
+2025-09-28 11:12:01 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 11:12:02 [INFO] 已写入 948 行到 dws_visitation_demographics
+2025-09-28 14:40:24 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 14:40:25 [INFO] 已写入 973 行到 dws_visitation_demographics
+2025-09-28 14:40:25 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 14:40:25 [INFO] 已写入 940 行到 dws_visitation_demographics
+2025-09-28 14:40:25 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 14:40:25 [INFO] 已写入 926 行到 dws_visitation_demographics
+2025-09-28 14:53:57 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 14:53:57 [INFO] 已写入 1174 行到 dws_visitation_demographics
+2025-09-28 14:53:57 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 14:53:57 [INFO] 已写入 1171 行到 dws_visitation_demographics
+2025-09-28 14:53:57 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 14:53:57 [INFO] 已写入 1168 行到 dws_visitation_demographics
+2025-09-28 15:20:02 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 15:20:03 [INFO] 已写入 972 行到 dws_visitation_demographics
+2025-09-28 15:20:03 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 15:20:03 [INFO] 已写入 973 行到 dws_visitation_demographics
+2025-09-28 15:20:03 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 15:20:03 [INFO] 已写入 1013 行到 dws_visitation_demographics
+2025-09-28 18:13:55 [INFO] 2025-08-25 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 18:13:56 [INFO] 已写入 972 行到 dws_visitation_demographics
+2025-09-28 18:13:56 [INFO] 2025-08-26 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 18:13:56 [INFO] 已写入 973 行到 dws_visitation_demographics
+2025-09-28 18:13:56 [INFO] 2025-08-27 已执行完成删除 dws_visitation_demographics  的数据
+2025-09-28 18:13:56 [INFO] 已写入 1013 行到 dws_visitation_demographics

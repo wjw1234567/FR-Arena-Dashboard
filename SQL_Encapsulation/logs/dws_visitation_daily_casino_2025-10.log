@@ -1,0 +1,173 @@
+2025-10-22 18:26:18 [ERROR] 执行delete语句出错: ServerException: Code: 47.
+DB::Exception: Missing columns: 'date' while processing: 'isZeroOrNull(date = '2025-08-25'), _block_offset, _block_number, _disk_name, visitor_num, _part_offset, _partition_id, profile_type, less15min_casino_visitor_num, _sample_factor, _part_data_version, _part_starting_offset, gender, batch_time, _part_uuid, new_casino_visitor_num, _part_index, _part, return_casino_visitor_num, _part_granule_offset, region_id, member_tier, region_type, region_name, stay_time_sum, Age_range, date_casino', required columns: '_part_granule_offset' '_block_number' '_block_offset' '_part_uuid' 'new_casino_visitor_num' 'visitor_num' '_part_offset' 'date' '_partition_id' '_sample_factor' 'profile_type' 'less15min_casino_visitor_num' 'region_type' '_disk_name' '_part_data_version' '_part_starting_offset' 'batch_time' 'gender' '_part' '_part_index' 'return_casino_visitor_num' 'Age_range' 'region_name' 'stay_time_sum' 'member_tier' 'region_id' 'date_casino', maybe you meant: 'new_casino_visitor_num', 'visitor_num', 'profile_type', 'less15min_casino_visitor_num', 'region_type', 'batch_time', 'gender', 'return_casino_visitor_num', 'Age_range', 'region_name', 'stay_time_sum', 'member_tier', 'region_id' or 'date_casino'. Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::TreeRewriterResult::collectUsedColumns(std::shared_ptr<DB::IAST> const&, bool, bool) @ 0x0000000016ff7fa0
+3. DB::TreeRewriter::analyze(std::shared_ptr<DB::IAST>&, DB::NamesAndTypesList const&, std::shared_ptr<DB::IStorage const>, std::shared_ptr<DB::StorageSnapshot> const&, bool, bool, bool, bool) const @ 0x0000000017002c77
+4. DB::MutationsInterpreter::prepareMutationStages(std::vector<DB::MutationsInterpreter::Stage, std::allocator<DB::MutationsInterpreter::Stage>>&, bool) @ 0x0000000016d912bb
+5. DB::MutationsInterpreter::prepare(bool) @ 0x0000000016d8c317
+6. DB::MutationsInterpreter::MutationsInterpreter(std::shared_ptr<DB::IStorage>, std::shared_ptr<DB::StorageInMemoryMetadata const>, DB::MutationCommands, std::shared_ptr<DB::Context const>, DB::MutationsInterpreter::Settings) @ 0x0000000016d8291b
+7. DB::InterpreterAlterQuery::executeToTable(DB::ASTAlterQuery const&) @ 0x0000000016c4ecca
+8. DB::InterpreterAlterQuery::execute() @ 0x0000000016c4baad
+9. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+10. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+11. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+12. DB::TCPHandler::run() @ 0x000000001853eab8
+13. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+14. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+15. Poco::PooledThread::run() @ 0x000000001d868207
+16. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+17. ? @ 0x0000000000094ac3
+18. ? @ 0x0000000000125a04
+
+2025-10-22 18:26:18 [INFO] 已写入 219 行到 dws_visitation_daily_casino
+2025-10-22 18:26:18 [ERROR] 执行delete语句出错: ServerException: Code: 47.
+DB::Exception: Missing columns: 'date' while processing: 'isZeroOrNull(date = '2025-08-26'), _block_offset, _block_number, _disk_name, visitor_num, _part_offset, _partition_id, profile_type, less15min_casino_visitor_num, _sample_factor, _part_data_version, _part_starting_offset, gender, batch_time, _part_uuid, new_casino_visitor_num, _part_index, _part, return_casino_visitor_num, _part_granule_offset, region_id, member_tier, region_type, region_name, stay_time_sum, Age_range, date_casino', required columns: '_part_granule_offset' '_block_number' '_block_offset' '_part_uuid' 'new_casino_visitor_num' 'visitor_num' '_part_offset' 'date' '_partition_id' '_sample_factor' 'profile_type' 'less15min_casino_visitor_num' 'region_type' '_disk_name' '_part_data_version' '_part_starting_offset' 'batch_time' 'gender' '_part' '_part_index' 'return_casino_visitor_num' 'Age_range' 'region_name' 'stay_time_sum' 'member_tier' 'region_id' 'date_casino', maybe you meant: 'new_casino_visitor_num', 'visitor_num', 'profile_type', 'less15min_casino_visitor_num', 'region_type', 'batch_time', 'gender', 'return_casino_visitor_num', 'Age_range', 'region_name', 'stay_time_sum', 'member_tier', 'region_id' or 'date_casino'. Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::TreeRewriterResult::collectUsedColumns(std::shared_ptr<DB::IAST> const&, bool, bool) @ 0x0000000016ff7fa0
+3. DB::TreeRewriter::analyze(std::shared_ptr<DB::IAST>&, DB::NamesAndTypesList const&, std::shared_ptr<DB::IStorage const>, std::shared_ptr<DB::StorageSnapshot> const&, bool, bool, bool, bool) const @ 0x0000000017002c77
+4. DB::MutationsInterpreter::prepareMutationStages(std::vector<DB::MutationsInterpreter::Stage, std::allocator<DB::MutationsInterpreter::Stage>>&, bool) @ 0x0000000016d912bb
+5. DB::MutationsInterpreter::prepare(bool) @ 0x0000000016d8c317
+6. DB::MutationsInterpreter::MutationsInterpreter(std::shared_ptr<DB::IStorage>, std::shared_ptr<DB::StorageInMemoryMetadata const>, DB::MutationCommands, std::shared_ptr<DB::Context const>, DB::MutationsInterpreter::Settings) @ 0x0000000016d8291b
+7. DB::InterpreterAlterQuery::executeToTable(DB::ASTAlterQuery const&) @ 0x0000000016c4ecca
+8. DB::InterpreterAlterQuery::execute() @ 0x0000000016c4baad
+9. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+10. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+11. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+12. DB::TCPHandler::run() @ 0x000000001853eab8
+13. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+14. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+15. Poco::PooledThread::run() @ 0x000000001d868207
+16. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+17. ? @ 0x0000000000094ac3
+18. ? @ 0x0000000000125a04
+
+2025-10-22 18:26:18 [INFO] 已写入 218 行到 dws_visitation_daily_casino
+2025-10-22 18:26:18 [ERROR] 执行delete语句出错: ServerException: Code: 47.
+DB::Exception: Missing columns: 'date' while processing: 'isZeroOrNull(date = '2025-08-27'), _block_offset, _block_number, _disk_name, visitor_num, _part_offset, _partition_id, profile_type, less15min_casino_visitor_num, _sample_factor, _part_data_version, _part_starting_offset, gender, batch_time, _part_uuid, new_casino_visitor_num, _part_index, _part, return_casino_visitor_num, _part_granule_offset, region_id, member_tier, region_type, region_name, stay_time_sum, Age_range, date_casino', required columns: '_part_granule_offset' '_block_number' '_block_offset' '_part_uuid' 'new_casino_visitor_num' 'visitor_num' '_part_offset' 'date' '_partition_id' '_sample_factor' 'profile_type' 'less15min_casino_visitor_num' 'region_type' '_disk_name' '_part_data_version' '_part_starting_offset' 'batch_time' 'gender' '_part' '_part_index' 'return_casino_visitor_num' 'Age_range' 'region_name' 'stay_time_sum' 'member_tier' 'region_id' 'date_casino', maybe you meant: 'new_casino_visitor_num', 'visitor_num', 'profile_type', 'less15min_casino_visitor_num', 'region_type', 'batch_time', 'gender', 'return_casino_visitor_num', 'Age_range', 'region_name', 'stay_time_sum', 'member_tier', 'region_id' or 'date_casino'. Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::TreeRewriterResult::collectUsedColumns(std::shared_ptr<DB::IAST> const&, bool, bool) @ 0x0000000016ff7fa0
+3. DB::TreeRewriter::analyze(std::shared_ptr<DB::IAST>&, DB::NamesAndTypesList const&, std::shared_ptr<DB::IStorage const>, std::shared_ptr<DB::StorageSnapshot> const&, bool, bool, bool, bool) const @ 0x0000000017002c77
+4. DB::MutationsInterpreter::prepareMutationStages(std::vector<DB::MutationsInterpreter::Stage, std::allocator<DB::MutationsInterpreter::Stage>>&, bool) @ 0x0000000016d912bb
+5. DB::MutationsInterpreter::prepare(bool) @ 0x0000000016d8c317
+6. DB::MutationsInterpreter::MutationsInterpreter(std::shared_ptr<DB::IStorage>, std::shared_ptr<DB::StorageInMemoryMetadata const>, DB::MutationCommands, std::shared_ptr<DB::Context const>, DB::MutationsInterpreter::Settings) @ 0x0000000016d8291b
+7. DB::InterpreterAlterQuery::executeToTable(DB::ASTAlterQuery const&) @ 0x0000000016c4ecca
+8. DB::InterpreterAlterQuery::execute() @ 0x0000000016c4baad
+9. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+10. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+11. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+12. DB::TCPHandler::run() @ 0x000000001853eab8
+13. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+14. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+15. Poco::PooledThread::run() @ 0x000000001d868207
+16. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+17. ? @ 0x0000000000094ac3
+18. ? @ 0x0000000000125a04
+
+2025-10-22 18:26:18 [INFO] 已写入 220 行到 dws_visitation_daily_casino
+2025-10-22 18:26:43 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily_casino  的数据
+2025-10-22 18:26:43 [INFO] 已写入 219 行到 dws_visitation_daily_casino
+2025-10-22 18:26:44 [INFO] 2025-08-26 已执行完成删除 dws_visitation_daily_casino  的数据
+2025-10-22 18:26:44 [INFO] 已写入 218 行到 dws_visitation_daily_casino
+2025-10-22 18:26:44 [INFO] 2025-08-27 已执行完成删除 dws_visitation_daily_casino  的数据
+2025-10-22 18:26:44 [INFO] 已写入 220 行到 dws_visitation_daily_casino
+2025-10-23 10:38:15 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily_casino  的数据
+2025-10-23 10:38:16 [INFO] 已写入 219 行到 dws_visitation_daily_casino
+2025-10-23 10:38:16 [INFO] 2025-08-26 已执行完成删除 dws_visitation_daily_casino  的数据
+2025-10-23 10:38:16 [INFO] 已写入 218 行到 dws_visitation_daily_casino
+2025-10-23 10:38:16 [INFO] 2025-08-27 已执行完成删除 dws_visitation_daily_casino  的数据
+2025-10-23 10:38:16 [INFO] 已写入 220 行到 dws_visitation_daily_casino
+2025-10-23 11:24:42 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily_casino  的数据
+2025-10-23 11:24:42 [INFO] 已写入 219 行到 dws_visitation_daily_casino
+2025-10-23 11:24:42 [INFO] 2025-08-26 已执行完成删除 dws_visitation_daily_casino  的数据
+2025-10-23 11:24:42 [INFO] 已写入 218 行到 dws_visitation_daily_casino
+2025-10-23 11:24:42 [INFO] 2025-08-27 已执行完成删除 dws_visitation_daily_casino  的数据
+2025-10-23 11:24:43 [INFO] 已写入 220 行到 dws_visitation_daily_casino
+2025-10-23 11:26:23 [INFO] dws_visitor_path_track_heatmap  2025-08-25 已删除 187368 行
+2025-10-23 11:26:25 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 1 批写入 100000 行，累计 100000/2291264 行
+2025-10-23 11:26:26 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 2 批写入 100000 行，累计 200000/2291264 行
+2025-10-23 11:26:28 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 3 批写入 100000 行，累计 300000/2291264 行
+2025-10-23 11:26:29 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 4 批写入 100000 行，累计 400000/2291264 行
+2025-10-23 11:26:30 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 5 批写入 100000 行，累计 500000/2291264 行
+2025-10-23 11:26:32 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 6 批写入 100000 行，累计 600000/2291264 行
+2025-10-23 11:26:33 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 7 批写入 100000 行，累计 700000/2291264 行
+2025-10-23 11:26:34 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 8 批写入 100000 行，累计 800000/2291264 行
+2025-10-23 11:26:36 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 9 批写入 100000 行，累计 900000/2291264 行
+2025-10-23 11:26:37 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 10 批写入 100000 行，累计 1000000/2291264 行
+2025-10-23 11:26:38 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 11 批写入 100000 行，累计 1100000/2291264 行
+2025-10-23 11:26:39 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 12 批写入 100000 行，累计 1200000/2291264 行
+2025-10-23 11:26:41 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 13 批写入 100000 行，累计 1300000/2291264 行
+2025-10-23 11:26:42 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 14 批写入 100000 行，累计 1400000/2291264 行
+2025-10-23 11:26:43 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 15 批写入 100000 行，累计 1500000/2291264 行
+2025-10-23 11:26:45 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 16 批写入 100000 行，累计 1600000/2291264 行
+2025-10-23 11:26:46 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 17 批写入 100000 行，累计 1700000/2291264 行
+2025-10-23 11:26:48 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 18 批写入 100000 行，累计 1800000/2291264 行
+2025-10-23 11:26:49 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 19 批写入 100000 行，累计 1900000/2291264 行
+2025-10-23 11:26:51 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 20 批写入 100000 行，累计 2000000/2291264 行
+2025-10-23 11:26:52 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 21 批写入 100000 行，累计 2100000/2291264 行
+2025-10-23 11:26:53 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 22 批写入 100000 行，累计 2200000/2291264 行
+2025-10-23 11:26:54 [INFO] dws_visitor_path_track_heatmap 2025-08-25 第 23 批写入 91264 行，累计 2291264/2291264 行
+2025-10-23 11:26:54 [INFO] dws_visitor_path_track_heatmap 2025-08-25 总条数写入 2291264 行
+2025-10-23 11:28:28 [INFO] dws_visitor_path_track_heatmap  2025-08-26 已删除 191347 行
+2025-10-23 11:28:29 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 1 批写入 100000 行，累计 100000/2343133 行
+2025-10-23 11:28:31 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 2 批写入 100000 行，累计 200000/2343133 行
+2025-10-23 11:28:32 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 3 批写入 100000 行，累计 300000/2343133 行
+2025-10-23 11:28:33 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 4 批写入 100000 行，累计 400000/2343133 行
+2025-10-23 11:28:35 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 5 批写入 100000 行，累计 500000/2343133 行
+2025-10-23 11:28:36 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 6 批写入 100000 行，累计 600000/2343133 行
+2025-10-23 11:28:38 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 7 批写入 100000 行，累计 700000/2343133 行
+2025-10-23 11:28:39 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 8 批写入 100000 行，累计 800000/2343133 行
+2025-10-23 11:28:40 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 9 批写入 100000 行，累计 900000/2343133 行
+2025-10-23 11:28:41 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 10 批写入 100000 行，累计 1000000/2343133 行
+2025-10-23 11:28:43 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 11 批写入 100000 行，累计 1100000/2343133 行
+2025-10-23 11:28:44 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 12 批写入 100000 行，累计 1200000/2343133 行
+2025-10-23 11:28:45 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 13 批写入 100000 行，累计 1300000/2343133 行
+2025-10-23 11:28:47 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 14 批写入 100000 行，累计 1400000/2343133 行
+2025-10-23 11:28:48 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 15 批写入 100000 行，累计 1500000/2343133 行
+2025-10-23 11:28:49 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 16 批写入 100000 行，累计 1600000/2343133 行
+2025-10-23 11:28:51 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 17 批写入 100000 行，累计 1700000/2343133 行
+2025-10-23 11:28:52 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 18 批写入 100000 行，累计 1800000/2343133 行
+2025-10-23 11:28:53 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 19 批写入 100000 行，累计 1900000/2343133 行
+2025-10-23 11:28:55 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 20 批写入 100000 行，累计 2000000/2343133 行
+2025-10-23 11:28:56 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 21 批写入 100000 行，累计 2100000/2343133 行
+2025-10-23 11:28:57 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 22 批写入 100000 行，累计 2200000/2343133 行
+2025-10-23 11:28:59 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 23 批写入 100000 行，累计 2300000/2343133 行
+2025-10-23 11:28:59 [INFO] dws_visitor_path_track_heatmap 2025-08-26 第 24 批写入 43133 行，累计 2343133/2343133 行
+2025-10-23 11:28:59 [INFO] dws_visitor_path_track_heatmap 2025-08-26 总条数写入 2343133 行
+2025-10-23 11:30:35 [INFO] dws_visitor_path_track_heatmap  2025-08-27 已删除 192813 行
+2025-10-23 11:30:37 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 1 批写入 100000 行，累计 100000/2362156 行
+2025-10-23 11:30:38 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 2 批写入 100000 行，累计 200000/2362156 行
+2025-10-23 11:30:40 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 3 批写入 100000 行，累计 300000/2362156 行
+2025-10-23 11:30:41 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 4 批写入 100000 行，累计 400000/2362156 行
+2025-10-23 11:30:42 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 5 批写入 100000 行，累计 500000/2362156 行
+2025-10-23 11:30:44 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 6 批写入 100000 行，累计 600000/2362156 行
+2025-10-23 11:30:46 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 7 批写入 100000 行，累计 700000/2362156 行
+2025-10-23 11:30:47 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 8 批写入 100000 行，累计 800000/2362156 行
+2025-10-23 11:30:48 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 9 批写入 100000 行，累计 900000/2362156 行
+2025-10-23 11:30:50 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 10 批写入 100000 行，累计 1000000/2362156 行
+2025-10-23 11:30:51 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 11 批写入 100000 行，累计 1100000/2362156 行
+2025-10-23 11:30:52 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 12 批写入 100000 行，累计 1200000/2362156 行
+2025-10-23 11:30:54 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 13 批写入 100000 行，累计 1300000/2362156 行
+2025-10-23 11:30:55 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 14 批写入 100000 行，累计 1400000/2362156 行
+2025-10-23 11:30:56 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 15 批写入 100000 行，累计 1500000/2362156 行
+2025-10-23 11:30:58 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 16 批写入 100000 行，累计 1600000/2362156 行
+2025-10-23 11:30:59 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 17 批写入 100000 行，累计 1700000/2362156 行
+2025-10-23 11:31:00 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 18 批写入 100000 行，累计 1800000/2362156 行
+2025-10-23 11:31:02 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 19 批写入 100000 行，累计 1900000/2362156 行
+2025-10-23 11:31:03 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 20 批写入 100000 行，累计 2000000/2362156 行
+2025-10-23 11:31:04 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 21 批写入 100000 行，累计 2100000/2362156 行
+2025-10-23 11:31:06 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 22 批写入 100000 行，累计 2200000/2362156 行
+2025-10-23 11:31:07 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 23 批写入 100000 行，累计 2300000/2362156 行
+2025-10-23 11:31:08 [INFO] dws_visitor_path_track_heatmap 2025-08-27 第 24 批写入 62156 行，累计 2362156/2362156 行
+2025-10-23 11:31:08 [INFO] dws_visitor_path_track_heatmap 2025-08-27 总条数写入 2362156 行
+2025-10-30 16:17:47 [INFO] 2025-08-25 已执行完成删除 dws_visitation_daily_casino  的数据
+2025-10-30 16:17:47 [INFO] 已写入 374 行到 dws_visitation_daily_casino
+2025-10-30 16:17:47 [INFO] 2025-08-26 已执行完成删除 dws_visitation_daily_casino  的数据
+2025-10-30 16:17:47 [INFO] 已写入 361 行到 dws_visitation_daily_casino
+2025-10-30 16:17:47 [INFO] 2025-08-27 已执行完成删除 dws_visitation_daily_casino  的数据
+2025-10-30 16:17:48 [INFO] 已写入 353 行到 dws_visitation_daily_casino

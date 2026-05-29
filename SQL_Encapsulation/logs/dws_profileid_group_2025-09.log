@@ -1,0 +1,173 @@
+2025-09-11 18:18:58 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-11 18:18:58 [INFO] 2025-08-25已写入 到  dws_profileid_group
+2025-09-11 18:18:58 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-11 18:18:59 [INFO] 2025-08-26已写入 到  dws_profileid_group
+2025-09-11 18:18:59 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-11 18:18:59 [INFO] 2025-08-27已写入 到  dws_profileid_group
+2025-09-11 18:20:46 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-11 18:20:46 [INFO] 2025-08-25已写入 到  dws_profileid_group
+2025-09-11 18:20:46 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-11 18:20:46 [INFO] 2025-08-26已写入 到  dws_profileid_group
+2025-09-11 18:20:46 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-11 18:20:46 [INFO] 2025-08-27已写入 到  dws_profileid_group
+2025-09-18 15:44:26 [ERROR] 执行delete语句出错: TypeError: getaddrinfo() argument 1 must be string or None
+2025-09-18 15:44:26 [ERROR] 执行_insert_into_select出错: TypeError: getaddrinfo() argument 1 must be string or None
+2025-09-18 15:44:26 [ERROR] 执行delete语句出错: TypeError: getaddrinfo() argument 1 must be string or None
+2025-09-18 15:44:26 [ERROR] 执行_insert_into_select出错: TypeError: getaddrinfo() argument 1 must be string or None
+2025-09-18 15:44:26 [ERROR] 执行delete语句出错: TypeError: getaddrinfo() argument 1 must be string or None
+2025-09-18 15:44:26 [ERROR] 执行_insert_into_select出错: TypeError: getaddrinfo() argument 1 must be string or None
+2025-09-18 15:57:10 [ERROR] 执行delete语句出错: TypeError: getaddrinfo() argument 1 must be string or None
+2025-09-18 15:58:08 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-18 15:58:09 [ERROR] 执行_insert_batch出错: AttributeError: 'str' object has no attribute 'tzinfo'
+2025-09-18 15:58:09 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-18 15:58:09 [ERROR] 执行_insert_batch出错: AttributeError: 'str' object has no attribute 'tzinfo'
+2025-09-18 15:58:09 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-18 15:58:09 [ERROR] 执行_insert_batch出错: AttributeError: 'str' object has no attribute 'tzinfo'
+2025-09-18 16:15:56 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-18 16:15:57 [INFO] 已写入 235 行到 dws_profileid_group
+2025-09-18 16:15:57 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-18 16:15:57 [INFO] 已写入 207 行到 dws_profileid_group
+2025-09-18 16:15:57 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-18 16:15:57 [INFO] 已写入 224 行到 dws_profileid_group
+2025-09-18 18:12:41 [INFO] 已清除dws_profileid_group 2025-08-25 的数据
+2025-09-18 18:12:41 [INFO] Inserted 235 rows into dws_profileid_group
+2025-09-18 18:12:41 [INFO] Wrote 235 rows to dws_profileid_group
+2025-09-18 18:12:41 [INFO] 已清除dws_profileid_group 2025-08-26 的数据
+2025-09-18 18:12:41 [INFO] Inserted 207 rows into dws_profileid_group
+2025-09-18 18:12:41 [INFO] Wrote 207 rows to dws_profileid_group
+2025-09-18 18:12:41 [INFO] 已清除dws_profileid_group 2025-08-27 的数据
+2025-09-18 18:12:41 [INFO] Inserted 224 rows into dws_profileid_group
+2025-09-18 18:12:41 [INFO] Wrote 224 rows to dws_profileid_group
+2025-09-22 14:57:34 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-22 14:57:34 [INFO] 已写入 235 行到 dws_profileid_group
+2025-09-22 14:57:34 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-22 14:57:35 [INFO] 已写入 207 行到 dws_profileid_group
+2025-09-22 14:57:35 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-22 14:57:35 [INFO] 已写入 224 行到 dws_profileid_group
+2025-09-25 14:56:14 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-25 14:56:56 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-25 14:56:57 [INFO] 已写入 239 行到 dws_profileid_group
+2025-09-25 14:56:57 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-25 14:56:57 [INFO] 已写入 207 行到 dws_profileid_group
+2025-09-25 14:56:57 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-25 14:56:57 [INFO] 已写入 225 行到 dws_profileid_group
+2025-09-26 11:04:00 [INFO] 已清除dws_profileid_group 2025-08-25 的数据
+2025-09-26 11:04:00 [INFO] Wrote 235 rows to dws_profileid_group
+2025-09-26 11:04:00 [INFO] 已清除dws_profileid_group 2025-08-26 的数据
+2025-09-26 11:04:00 [INFO] Wrote 207 rows to dws_profileid_group
+2025-09-26 11:04:00 [INFO] 已清除dws_profileid_group 2025-08-27 的数据
+2025-09-26 11:04:00 [INFO] Wrote 224 rows to dws_profileid_group
+2025-09-26 11:05:33 [INFO] 已清除dws_profileid_group 2025-08-25 的数据
+2025-09-26 11:05:33 [INFO] Wrote 235 rows to dws_profileid_group
+2025-09-26 11:05:33 [INFO] 已清除dws_profileid_group 2025-08-26 的数据
+2025-09-26 11:05:33 [INFO] Wrote 207 rows to dws_profileid_group
+2025-09-26 11:05:33 [INFO] 已清除dws_profileid_group 2025-08-27 的数据
+2025-09-26 11:05:33 [INFO] Wrote 224 rows to dws_profileid_group
+2025-09-26 11:46:47 [INFO] 已清除dws_profileid_group 2025-08-25 的数据
+2025-09-26 11:46:47 [INFO] Wrote 239 rows to dws_profileid_group
+2025-09-26 11:46:47 [INFO] 已清除dws_profileid_group 2025-08-26 的数据
+2025-09-26 11:46:47 [INFO] Wrote 207 rows to dws_profileid_group
+2025-09-26 11:46:47 [INFO] 已清除dws_profileid_group 2025-08-27 的数据
+2025-09-26 11:46:47 [INFO] Wrote 225 rows to dws_profileid_group
+2025-09-26 11:47:47 [INFO] 已清除dws_profileid_group 2025-08-25 的数据
+2025-09-26 11:47:47 [INFO] Wrote 239 rows to dws_profileid_group
+2025-09-26 11:47:47 [INFO] 已清除dws_profileid_group 2025-08-26 的数据
+2025-09-26 11:47:47 [INFO] Wrote 207 rows to dws_profileid_group
+2025-09-26 11:47:47 [INFO] 已清除dws_profileid_group 2025-08-27 的数据
+2025-09-26 11:47:47 [INFO] Wrote 225 rows to dws_profileid_group
+2025-09-26 11:48:49 [INFO] 已清除dws_profileid_group 2025-08-25 的数据
+2025-09-26 11:48:49 [INFO] Wrote 239 rows to dws_profileid_group
+2025-09-26 11:48:49 [INFO] 已清除dws_profileid_group 2025-08-26 的数据
+2025-09-26 11:48:49 [INFO] Wrote 207 rows to dws_profileid_group
+2025-09-26 11:48:49 [INFO] 已清除dws_profileid_group 2025-08-27 的数据
+2025-09-26 11:48:49 [INFO] Wrote 225 rows to dws_profileid_group
+2025-09-26 11:57:48 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 11:57:48 [INFO] 已写入 239 行到 dws_profileid_group
+2025-09-26 11:57:48 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 11:57:48 [INFO] 已写入 207 行到 dws_profileid_group
+2025-09-26 11:57:49 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 11:57:49 [INFO] 已写入 225 行到 dws_profileid_group
+2025-09-26 15:38:01 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 15:38:01 [INFO] 已写入 239 行到 dws_profileid_group
+2025-09-26 15:38:01 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 15:38:01 [INFO] 已写入 207 行到 dws_profileid_group
+2025-09-26 15:38:01 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 15:38:02 [INFO] 已写入 225 行到 dws_profileid_group
+2025-09-26 15:38:27 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 15:38:27 [INFO] 已写入 239 行到 dws_profileid_group
+2025-09-26 15:38:27 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 15:38:28 [INFO] 已写入 207 行到 dws_profileid_group
+2025-09-26 15:38:28 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 15:38:28 [INFO] 已写入 225 行到 dws_profileid_group
+2025-09-26 15:43:42 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 15:43:43 [INFO] 已写入 239 行到 dws_profileid_group
+2025-09-26 15:43:43 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 15:43:43 [INFO] 已写入 207 行到 dws_profileid_group
+2025-09-26 15:43:43 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 15:43:43 [INFO] 已写入 225 行到 dws_profileid_group
+2025-09-26 15:45:42 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 15:45:42 [INFO] 已写入 239 行到 dws_profileid_group
+2025-09-26 15:45:42 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 15:45:42 [INFO] 已写入 207 行到 dws_profileid_group
+2025-09-26 15:45:43 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 15:45:43 [INFO] 已写入 225 行到 dws_profileid_group
+2025-09-26 16:43:15 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 16:43:15 [INFO] 已写入 239 行到 dws_profileid_group
+2025-09-26 16:43:15 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 16:43:15 [INFO] 已写入 207 行到 dws_profileid_group
+2025-09-26 16:43:15 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 16:43:16 [INFO] 已写入 225 行到 dws_profileid_group
+2025-09-26 17:44:58 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 17:44:59 [INFO] 已写入 239 行到 dws_profileid_group
+2025-09-26 17:44:59 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 17:44:59 [INFO] 已写入 207 行到 dws_profileid_group
+2025-09-26 17:44:59 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 17:44:59 [INFO] 已写入 225 行到 dws_profileid_group
+2025-09-26 17:45:33 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 17:45:33 [INFO] 已写入 239 行到 dws_profileid_group
+2025-09-26 17:45:33 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 17:45:33 [INFO] 已写入 207 行到 dws_profileid_group
+2025-09-26 17:45:33 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 17:45:33 [INFO] 已写入 225 行到 dws_profileid_group
+2025-09-26 17:46:50 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 17:46:50 [INFO] 已写入 239 行到 dws_profileid_group
+2025-09-26 17:46:50 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 17:46:50 [INFO] 已写入 207 行到 dws_profileid_group
+2025-09-26 17:46:50 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-26 17:46:50 [INFO] 已写入 225 行到 dws_profileid_group
+2025-09-28 10:29:06 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 10:29:07 [INFO] 已写入 320 行到 dws_profileid_group
+2025-09-28 10:29:07 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 10:29:07 [INFO] 已写入 284 行到 dws_profileid_group
+2025-09-28 10:29:07 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 10:29:07 [INFO] 已写入 313 行到 dws_profileid_group
+2025-09-28 11:11:34 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 11:11:35 [INFO] 已写入 1029 行到 dws_profileid_group
+2025-09-28 11:11:35 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 11:11:35 [INFO] 已写入 1018 行到 dws_profileid_group
+2025-09-28 11:11:35 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 11:11:35 [INFO] 已写入 1053 行到 dws_profileid_group
+2025-09-28 14:40:14 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 14:40:14 [INFO] 已写入 787 行到 dws_profileid_group
+2025-09-28 14:40:14 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 14:40:14 [INFO] 已写入 847 行到 dws_profileid_group
+2025-09-28 14:40:14 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 14:40:15 [INFO] 已写入 808 行到 dws_profileid_group
+2025-09-28 14:52:18 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 14:52:18 [INFO] 已写入 1887 行到 dws_profileid_group
+2025-09-28 14:52:18 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 14:52:19 [INFO] 已写入 1990 行到 dws_profileid_group
+2025-09-28 14:52:19 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 14:52:19 [INFO] 已写入 1987 行到 dws_profileid_group
+2025-09-28 15:19:43 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 15:19:43 [INFO] 已写入 1318 行到 dws_profileid_group
+2025-09-28 15:19:43 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 15:19:44 [INFO] 已写入 1344 行到 dws_profileid_group
+2025-09-28 15:19:44 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 15:19:44 [INFO] 已写入 1318 行到 dws_profileid_group
+2025-09-28 18:13:36 [INFO] 2025-08-25 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 18:13:36 [INFO] 已写入 1318 行到 dws_profileid_group
+2025-09-28 18:13:36 [INFO] 2025-08-26 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 18:13:37 [INFO] 已写入 1344 行到 dws_profileid_group
+2025-09-28 18:13:37 [INFO] 2025-08-27 已执行完成删除 dws_profileid_group  的数据
+2025-09-28 18:13:37 [INFO] 已写入 1318 行到 dws_profileid_group

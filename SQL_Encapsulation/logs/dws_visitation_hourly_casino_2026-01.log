@@ -1,0 +1,2720 @@
+2026-01-08 16:06:09 [INFO] 2025-10-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:10 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:10 [INFO] 2025-10-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:10 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:10 [INFO] 2025-10-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:10 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:10 [INFO] 2025-10-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:10 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:10 [INFO] 2025-10-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:10 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:10 [INFO] 2025-10-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:11 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:11 [INFO] 2025-10-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:11 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:11 [INFO] 2025-10-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:11 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:11 [INFO] 2025-10-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:11 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:11 [INFO] 2025-10-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:11 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:11 [INFO] 2025-10-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:11 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:11 [INFO] 2025-10-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:12 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:12 [INFO] 2025-10-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:12 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:12 [INFO] 2025-10-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:12 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:12 [INFO] 2025-10-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:12 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:12 [INFO] 2025-10-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:12 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:12 [INFO] 2025-10-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:12 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:12 [INFO] 2025-10-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:13 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:13 [INFO] 2025-10-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:13 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:13 [INFO] 2025-10-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:13 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:13 [INFO] 2025-10-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:13 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:13 [INFO] 2025-10-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:13 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:13 [INFO] 2025-10-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:13 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:14 [INFO] 2025-10-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:14 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:14 [INFO] 2025-10-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:14 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:14 [INFO] 2025-10-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:14 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:14 [INFO] 2025-10-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:14 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:14 [INFO] 2025-10-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:14 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:14 [INFO] 2025-10-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:15 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:15 [INFO] 2025-10-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:15 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:06:15 [INFO] 2025-10-31 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:06:15 [ERROR] 执行_insert_into_select出错: ServerException: Code: 16.
+DB::Exception: No such column date_hour in table Facial.dws_visitation_hourly_casino (171ebec3-de8b-4383-992a-e93fec81852f). Stack trace:
+
+0. DB::Exception::Exception(DB::Exception::MessageMasked&&, int, bool) @ 0x00000000127c721b
+1. DB::Exception::Exception(PreformattedMessage&&, int) @ 0x000000000bfd62cc
+2. DB::Exception::Exception<String const&, String>(int, FormatStringHelperImpl<std::type_identity<String const&>::type, std::type_identity<String>::type>, String const&, String&&) @ 0x000000000cefe50b
+3. DB::InterpreterInsertQuery::getSampleBlock(DB::ASTInsertQuery const&, std::shared_ptr<DB::IStorage> const&, std::shared_ptr<DB::StorageInMemoryMetadata const> const&, std::shared_ptr<DB::Context const>, bool, bool) @ 0x0000000016cb4517
+4. DB::InterpreterInsertQuery::execute() @ 0x0000000016cb8f6c
+5. DB::executeQueryImpl(char const*, char const*, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum, DB::ReadBuffer*, std::shared_ptr<DB::IAST>&, std::shared_ptr<DB::ImplicitTransactionControlExecutor>) @ 0x0000000017094b13
+6. DB::executeQuery(String const&, std::shared_ptr<DB::Context>, DB::QueryFlags, DB::QueryProcessingStage::Enum) @ 0x000000001708e480
+7. DB::TCPHandler::runImpl() @ 0x000000001851f0cc
+8. DB::TCPHandler::run() @ 0x000000001853eab8
+9. Poco::Net::TCPServerConnection::start() @ 0x000000001d89cb27
+10. Poco::Net::TCPServerDispatcher::run() @ 0x000000001d89cf79
+11. Poco::PooledThread::run() @ 0x000000001d868207
+12. Poco::ThreadImpl::runnableEntry(void*) @ 0x000000001d8667a1
+13. ? @ 0x0000000000094ac3
+14. ? @ 0x0000000000125a04
+，报错SQL：INSERT INTO dws_visitation_hourly_casino (date_casino, date_hour, region_type, region_id, region_name, gender, Age_range, profile_type, member_tier, visitor_num, batch_time) 
+
+             select
+                   toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , region_id
+                , region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s and  region_type = '4'
+        group by  date_casino,date_hour, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+        union all
+        select
+
+                  toDate( date_casino_hour) AS date_casino
+                , date_hour
+                , region_type
+                , 'all' region_id
+                , 'all' region_name
+                , gender
+                , Age_range
+                , profile_type
+                , member_tier
+                , count(distinct profile_id) visitor_num
+                , now() batch_time
+        from dws_profileid_all_index t1
+        where date_casino = %(date)s  and  region_type = '4'
+        group by  date_casino,date_hour,region_type, region_type, region_id, region_name, gender, Age_range, profile_type,member_tier
+
+
+        
+2026-01-08 16:08:35 [INFO] 2025-10-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:35 [INFO] 2025-10-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:35 [INFO] 2025-10-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:35 [INFO] 2025-10-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:35 [INFO] 2025-10-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:36 [INFO] 2025-10-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:36 [INFO] 2025-10-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:36 [INFO] 2025-10-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:36 [INFO] 2025-10-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:36 [INFO] 2025-10-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:37 [INFO] 2025-10-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:37 [INFO] 2025-10-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:37 [INFO] 2025-10-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:37 [INFO] 2025-10-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:37 [INFO] 2025-10-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:38 [INFO] 2025-10-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:38 [INFO] 2025-10-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:38 [INFO] 2025-10-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:38 [INFO] 2025-10-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:38 [INFO] 2025-10-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:39 [INFO] 2025-10-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:39 [INFO] 2025-10-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:39 [INFO] 2025-10-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:39 [INFO] 2025-10-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:39 [INFO] 2025-10-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:40 [INFO] 2025-10-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:40 [INFO] 2025-10-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:40 [INFO] 2025-10-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:40 [INFO] 2025-10-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:40 [INFO] 2025-10-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:08:41 [INFO] 2025-10-31 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:08:41 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:40 [INFO] 2025-08-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:41 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:41 [INFO] 2025-08-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:41 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:41 [INFO] 2025-08-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:41 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:41 [INFO] 2025-08-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:41 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:41 [INFO] 2025-08-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:41 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:41 [INFO] 2025-08-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:42 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:42 [INFO] 2025-08-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:42 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:42 [INFO] 2025-08-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:42 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:42 [INFO] 2025-08-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:42 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:42 [INFO] 2025-08-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:42 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:42 [INFO] 2025-08-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:43 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:43 [INFO] 2025-08-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:43 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:43 [INFO] 2025-08-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:43 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:43 [INFO] 2025-08-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:43 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:43 [INFO] 2025-08-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:43 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:44 [INFO] 2025-08-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:44 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:44 [INFO] 2025-08-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:44 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:44 [INFO] 2025-08-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:44 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:44 [INFO] 2025-08-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:44 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:44 [INFO] 2025-08-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:44 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:45 [INFO] 2025-08-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:45 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:45 [INFO] 2025-08-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:45 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:45 [INFO] 2025-08-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:45 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:45 [INFO] 2025-08-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:45 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:45 [INFO] 2025-08-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:45 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:46 [INFO] 2025-08-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:46 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:46 [INFO] 2025-08-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:46 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:46 [INFO] 2025-08-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:46 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:46 [INFO] 2025-08-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:46 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:46 [INFO] 2025-08-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:47 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:47 [INFO] 2025-08-31 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:47 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:47 [INFO] 2025-09-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:47 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:47 [INFO] 2025-09-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:47 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:47 [INFO] 2025-09-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:47 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:47 [INFO] 2025-09-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:48 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:48 [INFO] 2025-09-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:48 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:48 [INFO] 2025-09-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:48 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:48 [INFO] 2025-09-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:48 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:48 [INFO] 2025-09-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:49 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:49 [INFO] 2025-09-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:49 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:49 [INFO] 2025-09-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:49 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:49 [INFO] 2025-09-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:49 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:49 [INFO] 2025-09-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:49 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:49 [INFO] 2025-09-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:50 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:50 [INFO] 2025-09-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:50 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:50 [INFO] 2025-09-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:50 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:50 [INFO] 2025-09-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:50 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:50 [INFO] 2025-09-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:50 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:51 [INFO] 2025-09-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:51 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:51 [INFO] 2025-09-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:51 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:51 [INFO] 2025-09-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:51 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:51 [INFO] 2025-09-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:51 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:51 [INFO] 2025-09-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:52 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:52 [INFO] 2025-09-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:52 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:52 [INFO] 2025-09-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:52 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:52 [INFO] 2025-09-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:52 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:52 [INFO] 2025-09-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:52 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:52 [INFO] 2025-09-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:53 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:53 [INFO] 2025-09-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:53 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:53 [INFO] 2025-09-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:53 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 16:47:53 [INFO] 2025-09-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 16:47:53 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:01 [INFO] 2025-08-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:01 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:02 [INFO] 2025-08-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:02 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:02 [INFO] 2025-08-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:02 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:02 [INFO] 2025-08-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:02 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:02 [INFO] 2025-08-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:02 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:02 [INFO] 2025-08-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:03 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:03 [INFO] 2025-08-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:03 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:03 [INFO] 2025-08-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:03 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:03 [INFO] 2025-08-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:03 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:03 [INFO] 2025-08-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:03 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:04 [INFO] 2025-08-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:04 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:04 [INFO] 2025-08-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:04 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:04 [INFO] 2025-08-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:04 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:04 [INFO] 2025-08-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:04 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:05 [INFO] 2025-08-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:05 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:05 [INFO] 2025-08-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:05 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:05 [INFO] 2025-08-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:05 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:05 [INFO] 2025-08-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:05 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:05 [INFO] 2025-08-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:06 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:06 [INFO] 2025-08-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:06 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:06 [INFO] 2025-08-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:06 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:06 [INFO] 2025-08-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:06 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:06 [INFO] 2025-08-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:06 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:06 [INFO] 2025-08-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:07 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:07 [INFO] 2025-08-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:07 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:07 [INFO] 2025-08-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:07 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:07 [INFO] 2025-08-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:07 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:07 [INFO] 2025-08-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:07 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:07 [INFO] 2025-08-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:08 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:08 [INFO] 2025-08-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:08 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:08 [INFO] 2025-08-31 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:08 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:08 [INFO] 2025-09-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:08 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:08 [INFO] 2025-09-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:08 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:09 [INFO] 2025-09-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:09 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:09 [INFO] 2025-09-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:09 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:09 [INFO] 2025-09-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:09 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:09 [INFO] 2025-09-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:09 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:09 [INFO] 2025-09-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:10 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:10 [INFO] 2025-09-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:10 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:10 [INFO] 2025-09-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:10 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:10 [INFO] 2025-09-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:10 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:10 [INFO] 2025-09-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:10 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:10 [INFO] 2025-09-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:11 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:11 [INFO] 2025-09-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:11 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:11 [INFO] 2025-09-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:11 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:11 [INFO] 2025-09-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:11 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:11 [INFO] 2025-09-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:11 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:11 [INFO] 2025-09-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:12 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:12 [INFO] 2025-09-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:12 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:12 [INFO] 2025-09-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:12 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:12 [INFO] 2025-09-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:12 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:12 [INFO] 2025-09-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:12 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:13 [INFO] 2025-09-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:13 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:13 [INFO] 2025-09-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:13 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:13 [INFO] 2025-09-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:13 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:13 [INFO] 2025-09-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:13 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:13 [INFO] 2025-09-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:14 [INFO] 2025-09-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:14 [INFO] 2025-09-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:14 [INFO] 2025-09-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:14 [INFO] 2025-09-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:14 [INFO] 2025-10-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:15 [INFO] 2025-10-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:15 [INFO] 2025-10-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:15 [INFO] 2025-10-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:15 [INFO] 2025-10-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:15 [INFO] 2025-10-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:16 [INFO] 2025-10-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:16 [INFO] 2025-10-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:16 [INFO] 2025-10-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:16 [INFO] 2025-10-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:16 [INFO] 2025-10-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:17 [INFO] 2025-10-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:17 [INFO] 2025-10-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:17 [INFO] 2025-10-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:17 [INFO] 2025-10-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:18 [INFO] 2025-10-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:18 [INFO] 2025-10-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:18 [INFO] 2025-10-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:18 [INFO] 2025-10-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:18 [INFO] 2025-10-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:19 [INFO] 2025-10-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:19 [INFO] 2025-10-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:19 [INFO] 2025-10-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:19 [INFO] 2025-10-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:19 [INFO] 2025-10-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:20 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:20 [INFO] 2025-10-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:20 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:20 [INFO] 2025-10-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:20 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:20 [INFO] 2025-10-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:20 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:20 [INFO] 2025-10-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:20 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:20 [INFO] 2025-10-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:21 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:11:21 [INFO] 2025-10-31 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:11:21 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:22 [INFO] 2025-08-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:22 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:22 [INFO] 2025-08-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:22 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:22 [INFO] 2025-08-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:23 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:23 [INFO] 2025-08-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:23 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:23 [INFO] 2025-08-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:23 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:23 [INFO] 2025-08-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:23 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:23 [INFO] 2025-08-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:23 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:24 [INFO] 2025-08-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:24 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:24 [INFO] 2025-08-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:24 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:24 [INFO] 2025-08-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:24 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:24 [INFO] 2025-08-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:24 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:24 [INFO] 2025-08-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:25 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:25 [INFO] 2025-08-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:25 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:25 [INFO] 2025-08-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:25 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:25 [INFO] 2025-08-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:25 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:25 [INFO] 2025-08-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:25 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:26 [INFO] 2025-08-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:26 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:26 [INFO] 2025-08-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:26 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:26 [INFO] 2025-08-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:26 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:26 [INFO] 2025-08-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:26 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:26 [INFO] 2025-08-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:26 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:26 [INFO] 2025-08-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:27 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:27 [INFO] 2025-08-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:27 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:27 [INFO] 2025-08-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:27 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:27 [INFO] 2025-08-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:27 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:27 [INFO] 2025-08-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:27 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:28 [INFO] 2025-08-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:28 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:28 [INFO] 2025-08-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:28 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:28 [INFO] 2025-08-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:28 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:28 [INFO] 2025-08-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:28 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:28 [INFO] 2025-08-31 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:29 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:29 [INFO] 2025-09-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:29 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:29 [INFO] 2025-09-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:29 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:29 [INFO] 2025-09-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:29 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:29 [INFO] 2025-09-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:29 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:29 [INFO] 2025-09-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:29 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:30 [INFO] 2025-09-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:30 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:30 [INFO] 2025-09-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:30 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:30 [INFO] 2025-09-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:30 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:30 [INFO] 2025-09-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:30 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:30 [INFO] 2025-09-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:31 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:31 [INFO] 2025-09-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:31 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:31 [INFO] 2025-09-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:31 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:31 [INFO] 2025-09-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:31 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:31 [INFO] 2025-09-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:32 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:32 [INFO] 2025-09-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:32 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:32 [INFO] 2025-09-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:32 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:32 [INFO] 2025-09-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:32 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:32 [INFO] 2025-09-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:32 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:32 [INFO] 2025-09-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:33 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:33 [INFO] 2025-09-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:33 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:33 [INFO] 2025-09-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:33 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:33 [INFO] 2025-09-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:33 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:33 [INFO] 2025-09-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:33 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:33 [INFO] 2025-09-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:34 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:34 [INFO] 2025-09-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:34 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:34 [INFO] 2025-09-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:34 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:34 [INFO] 2025-09-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:34 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:34 [INFO] 2025-09-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:34 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:35 [INFO] 2025-09-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:35 [INFO] 2025-09-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:35 [INFO] 2025-10-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:35 [INFO] 2025-10-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:35 [INFO] 2025-10-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:36 [INFO] 2025-10-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:36 [INFO] 2025-10-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:36 [INFO] 2025-10-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:36 [INFO] 2025-10-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:36 [INFO] 2025-10-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:37 [INFO] 2025-10-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:37 [INFO] 2025-10-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:37 [INFO] 2025-10-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:37 [INFO] 2025-10-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:38 [INFO] 2025-10-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:38 [INFO] 2025-10-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:38 [INFO] 2025-10-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:38 [INFO] 2025-10-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:38 [INFO] 2025-10-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:39 [INFO] 2025-10-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:39 [INFO] 2025-10-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:39 [INFO] 2025-10-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:39 [INFO] 2025-10-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:39 [INFO] 2025-10-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:40 [INFO] 2025-10-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:40 [INFO] 2025-10-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:40 [INFO] 2025-10-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:40 [INFO] 2025-10-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:40 [INFO] 2025-10-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:41 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:41 [INFO] 2025-10-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:41 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:41 [INFO] 2025-10-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:41 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:41 [INFO] 2025-10-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:41 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:23:41 [INFO] 2025-10-31 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:23:41 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:00 [INFO] 2025-08-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:00 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:00 [INFO] 2025-08-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:00 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:00 [INFO] 2025-08-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:01 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:01 [INFO] 2025-08-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:01 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:01 [INFO] 2025-08-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:01 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:01 [INFO] 2025-08-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:01 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:01 [INFO] 2025-08-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:01 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:02 [INFO] 2025-08-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:02 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:02 [INFO] 2025-08-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:02 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:02 [INFO] 2025-08-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:02 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:02 [INFO] 2025-08-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:02 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:02 [INFO] 2025-08-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:03 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:03 [INFO] 2025-08-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:03 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:03 [INFO] 2025-08-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:03 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:03 [INFO] 2025-08-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:03 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:03 [INFO] 2025-08-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:03 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:03 [INFO] 2025-08-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:04 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:04 [INFO] 2025-08-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:04 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:04 [INFO] 2025-08-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:04 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:04 [INFO] 2025-08-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:04 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:04 [INFO] 2025-08-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:04 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:04 [INFO] 2025-08-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:05 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:05 [INFO] 2025-08-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:05 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:05 [INFO] 2025-08-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:05 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:05 [INFO] 2025-08-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:05 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:05 [INFO] 2025-08-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:05 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:05 [INFO] 2025-08-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:06 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:06 [INFO] 2025-08-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:06 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:06 [INFO] 2025-08-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:06 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:06 [INFO] 2025-08-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:06 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:06 [INFO] 2025-08-31 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:06 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:07 [INFO] 2025-09-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:07 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:07 [INFO] 2025-09-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:07 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:07 [INFO] 2025-09-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:07 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:07 [INFO] 2025-09-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:07 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:07 [INFO] 2025-09-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:08 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:08 [INFO] 2025-09-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:08 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:08 [INFO] 2025-09-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:08 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:08 [INFO] 2025-09-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:08 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:08 [INFO] 2025-09-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:08 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:08 [INFO] 2025-09-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:09 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:09 [INFO] 2025-09-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:09 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:09 [INFO] 2025-09-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:09 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:09 [INFO] 2025-09-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:09 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:09 [INFO] 2025-09-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:09 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:10 [INFO] 2025-09-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:10 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:10 [INFO] 2025-09-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:10 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:10 [INFO] 2025-09-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:10 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:10 [INFO] 2025-09-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:10 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:10 [INFO] 2025-09-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:10 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:11 [INFO] 2025-09-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:11 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:11 [INFO] 2025-09-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:11 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:11 [INFO] 2025-09-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:11 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:11 [INFO] 2025-09-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:11 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:11 [INFO] 2025-09-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:11 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:12 [INFO] 2025-09-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:12 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:12 [INFO] 2025-09-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:12 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:12 [INFO] 2025-09-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:12 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:12 [INFO] 2025-09-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:12 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:12 [INFO] 2025-09-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:12 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:13 [INFO] 2025-09-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:13 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:13 [INFO] 2025-10-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:13 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:13 [INFO] 2025-10-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:13 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:13 [INFO] 2025-10-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:13 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:13 [INFO] 2025-10-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:14 [INFO] 2025-10-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:14 [INFO] 2025-10-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:14 [INFO] 2025-10-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:14 [INFO] 2025-10-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:14 [INFO] 2025-10-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:15 [INFO] 2025-10-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:15 [INFO] 2025-10-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:15 [INFO] 2025-10-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:15 [INFO] 2025-10-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:16 [INFO] 2025-10-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:16 [INFO] 2025-10-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:16 [INFO] 2025-10-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:16 [INFO] 2025-10-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:16 [INFO] 2025-10-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:17 [INFO] 2025-10-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:17 [INFO] 2025-10-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:17 [INFO] 2025-10-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:17 [INFO] 2025-10-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:18 [INFO] 2025-10-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:18 [INFO] 2025-10-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:18 [INFO] 2025-10-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:18 [INFO] 2025-10-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:18 [INFO] 2025-10-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:19 [INFO] 2025-10-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:19 [INFO] 2025-10-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:19 [INFO] 2025-10-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-08 17:56:19 [INFO] 2025-10-31 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-08 17:56:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:47 [INFO] 2025-08-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:47 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:47 [INFO] 2025-08-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:48 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:48 [INFO] 2025-08-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:48 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:48 [INFO] 2025-08-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:48 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:48 [INFO] 2025-08-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:48 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:48 [INFO] 2025-08-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:48 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:48 [INFO] 2025-08-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:49 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:49 [INFO] 2025-08-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:49 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:49 [INFO] 2025-08-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:49 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:49 [INFO] 2025-08-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:49 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:49 [INFO] 2025-08-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:49 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:49 [INFO] 2025-08-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:50 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:50 [INFO] 2025-08-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:50 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:50 [INFO] 2025-08-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:50 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:50 [INFO] 2025-08-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:50 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:50 [INFO] 2025-08-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:50 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:51 [INFO] 2025-08-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:51 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:51 [INFO] 2025-08-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:51 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:51 [INFO] 2025-08-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:51 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:51 [INFO] 2025-08-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:51 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:51 [INFO] 2025-08-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:51 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:51 [INFO] 2025-08-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:52 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:52 [INFO] 2025-08-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:52 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:52 [INFO] 2025-08-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:52 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:52 [INFO] 2025-08-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:52 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:52 [INFO] 2025-08-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:52 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:52 [INFO] 2025-08-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:53 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:53 [INFO] 2025-08-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:53 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:53 [INFO] 2025-08-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:53 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:53 [INFO] 2025-08-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:53 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:12:53 [INFO] 2025-08-31 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:12:53 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:34 [INFO] 2025-08-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:35 [INFO] 2025-08-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:35 [INFO] 2025-08-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:35 [INFO] 2025-08-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:35 [INFO] 2025-08-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:35 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:35 [INFO] 2025-08-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:36 [INFO] 2025-08-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:36 [INFO] 2025-08-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:36 [INFO] 2025-08-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:36 [INFO] 2025-08-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:36 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:36 [INFO] 2025-08-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:37 [INFO] 2025-08-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:37 [INFO] 2025-08-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:37 [INFO] 2025-08-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:37 [INFO] 2025-08-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:37 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:37 [INFO] 2025-08-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:38 [INFO] 2025-08-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:38 [INFO] 2025-08-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:38 [INFO] 2025-08-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:38 [INFO] 2025-08-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:38 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:38 [INFO] 2025-08-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:39 [INFO] 2025-08-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:39 [INFO] 2025-08-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:39 [INFO] 2025-08-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:39 [INFO] 2025-08-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:39 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:39 [INFO] 2025-08-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:40 [INFO] 2025-08-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:40 [INFO] 2025-08-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:40 [INFO] 2025-08-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:40 [INFO] 2025-08-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:40 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 11:26:40 [INFO] 2025-08-31 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 11:26:41 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:16 [INFO] 2025-08-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:16 [INFO] 2025-08-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:16 [INFO] 2025-08-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:17 [INFO] 2025-08-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:17 [INFO] 2025-08-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:17 [INFO] 2025-08-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:17 [INFO] 2025-08-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:17 [INFO] 2025-08-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:18 [INFO] 2025-08-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:18 [INFO] 2025-08-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:18 [INFO] 2025-08-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:18 [INFO] 2025-08-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:18 [INFO] 2025-08-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:19 [INFO] 2025-08-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:19 [INFO] 2025-08-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:19 [INFO] 2025-08-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:19 [INFO] 2025-08-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:19 [INFO] 2025-08-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:20 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:20 [INFO] 2025-08-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:20 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:20 [INFO] 2025-08-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:20 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:20 [INFO] 2025-08-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:20 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:20 [INFO] 2025-08-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:20 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:20 [INFO] 2025-08-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:21 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:21 [INFO] 2025-08-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:21 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:21 [INFO] 2025-08-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:21 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:21 [INFO] 2025-08-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:21 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:21 [INFO] 2025-08-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:21 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:21 [INFO] 2025-08-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:22 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:22 [INFO] 2025-08-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:22 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:22 [INFO] 2025-08-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:22 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-12 12:01:22 [INFO] 2025-08-31 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-12 12:01:22 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:13 [INFO] 2025-08-01 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:13 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:13 [INFO] 2025-08-02 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:13 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:13 [INFO] 2025-08-03 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:14 [INFO] 2025-08-04 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:14 [INFO] 2025-08-05 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:14 [INFO] 2025-08-06 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:14 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:14 [INFO] 2025-08-07 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:15 [INFO] 2025-08-08 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:15 [INFO] 2025-08-09 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:15 [INFO] 2025-08-10 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:15 [INFO] 2025-08-11 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:15 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:15 [INFO] 2025-08-12 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:16 [INFO] 2025-08-13 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:16 [INFO] 2025-08-14 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:16 [INFO] 2025-08-15 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:16 [INFO] 2025-08-16 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:16 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:17 [INFO] 2025-08-17 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:17 [INFO] 2025-08-18 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:17 [INFO] 2025-08-19 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:17 [INFO] 2025-08-20 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:17 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:17 [INFO] 2025-08-21 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:18 [INFO] 2025-08-22 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:18 [INFO] 2025-08-23 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:18 [INFO] 2025-08-24 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:18 [INFO] 2025-08-25 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:18 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:18 [INFO] 2025-08-26 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:19 [INFO] 2025-08-27 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:19 [INFO] 2025-08-28 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:19 [INFO] 2025-08-29 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:19 [INFO] 2025-08-30 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:19 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
+2026-01-15 10:50:20 [INFO] 2025-08-31 已执行完成删除 dws_visitation_hourly_casino  的数据
+2026-01-15 10:50:20 [INFO]  执行成功 ，已经写入  dws_visitation_hourly_casino
